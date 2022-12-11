@@ -1,0 +1,32 @@
+.cor-fundo{
+    background-color:#D2D2D2; ;
+}
+.cor-letra{
+    color: #E03616;
+}
+
+.cor-letra-D2D2D2{
+    color : #D2D2D2;
+}
+
+.cor-icone-quadrado{
+    background-color: #E03616;
+}
+
+.cor-botao{
+    background-color: #E03616;
+}
+
+.borda{
+    border-color:#E03616;
+    border-width: solid 3px;
+}
+
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat',sans-serif;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang>
+    <head>
+        <title>Tutorial-python-arquivos-texto</title>
+    </head>
+    <body>
+        <header>
+            <header>
+                <img src="/img/transferir.png" width="100px" height="100px" alt="logo python">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="listas.html">Listas</a></li>
+                        <li><a href="tuplas.html">Tuplas</a></li>
+                        <li><a href="Dicionários.html">Dicionários</a></li>
+                        <li><a href="arquivo.html">Arquivos de Texto</a></li>
+                        <li><a href="ordenacao.html">Ordenação</a></li>
+                        <li><a href="funcoes.html">Funções</a></li>
+                        <li><a href="matrizes.html">Matrizes</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+        </header>
+        <style>
+            /* *{
+                border: solid white 5px;
+            } */
+            body{
+                margin: 0px;
+                background-color: black;
+            }
+            a{
+                color: white;
+            }
+            ul,li{
+                padding: 0px;
+                display: inline;
+            }
+            li{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                padding: 0px 13px 0px 13px;
+            }
+            ul{
+                padding: 0px 100px 0px 20px;
+            }
+            header>img{
+                margin-top: 10px;
+                margin-left: 60px;
+                z-index: 1;
+                position: relative;
+            }
+            header{
+                font-weight: bold;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-color: rgb(13, 13, 80);
+            }
+            nav{
+                display: inline;
+                position: absolute;
+                top: 40px;
+                padding: 0px 20px 0px 80px;
+                z-index: 1;
+                margin-left: 40px;
+            }
+            /* h1{
+                margin-left: 500px;
+            }
+            p{
+                margin-left: 400px; 
+            }*/
+            .textotuplas,h1{
+                color: white;
+            }
+            .textotuplas1, p {
+                color: white;
+            }
+            .textoarquivo{
+                color: white;
+                margin-left: 250px;
+                margin-right: 200px;
+            }
+
+
+        </style>
+        <section class="textoarquivo">
+            <h1>Arquivos de Texto</h1>
+            <p>Existem dois tipos de arquivos:os arquivos de texto,que podem ser mostrados diretamente na tela,e os arquivos binários que são uma sequência de bits gerados,aos quais o ser humano não consegue interpretar.</p>
+            <p>Para abrir um arquivo utilizamos a função OPEN, que recebe como parâmetro o nome do arquivo incluindo o seu caminho e o modo escolhido.</p>
+            <p>entre os modos temos:</p>
+                <p>.R : modo leitura</p>
+                <p>.w : modo escrita</p>
+                <p>.R+ : modo leitura + escrita</p>
+                <p>.A : modo de anexação</p>
+             
+            <p>obs: Ao abrir um aquivo no modo W,seu conteúdo será primeiramente apagado.</p>
+            <img src="./img/arquivo.png"  alt="logo python">
+            <p>Exemplo de como ler os dados de um arquivo caractere por caractere:</p>
+            <img src="./img/arquivo2.png"  alt="logo python">
+            <p>O método readline retorna uma string referente a uma linha do arquivo.</p>
+            <p>Para isso, o arquivo deve ser aberto no modo de leitura (r) ou leitura/escrita (r+).</p>
+            <img src="./img/arquivo3.png"  alt="logo python">
+            <p>Podemos usar os métodos seek e tell combinados para alterar a posição do arquivo com base na posição atual.</p>
+            <img src="./img/arquivo4.png"  alt="logo python">
+            <p>O método close é usado para fechar um arquivo que foi aberto.</p>
+            <p>Ele garante que os novos dados serão efetivamente escritos no arquivo.</p>
+            <img src="./img/arquivo5.png"  alt="logo python">
+            <p>A função print também pode escrever dados em um arquivo.</p>
+            <p>Basta utilizar o parâmetro file, indicando em qual arquivo aberto, a mensagem deve ser escrita.</p>
+            <img src="./img/arquivo6.png"  alt="logo python">
+        </section>
+    </body>
+</html>

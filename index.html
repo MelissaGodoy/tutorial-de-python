@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    
+        <link rel="stylesheet" href="css/tema.css">
+        <title>tutorial-python</title>
+    </head>
+    <body>
+        <header>
+            <img src="./img/python.jpg" width="100px" height="100px" alt="logo python">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listas.html">Listas</a></li>
+                    <li><a href="tuplas.html">Tuplas</a></li>
+                    <li><a href="Dicionários.html">Dicionários</a></li>
+                    <li><a href="arquivo.html">Arquivos de Texto</a></li>
+                    <li><a href="ordenacao.html">Ordenação</a></li>
+                    <li><a href="funcoes.html">Funções</a></li>
+                    <li><a href="matrizes.html">Matrizes</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <style>
+           
+            /* *{ */
+                /* border: solid black 5px ; */
+            /* } */
+            body{
+                margin: 0px;
+                background-color: black;
+            }
+            a{
+                color: white;
+            }
+            ul, li{
+                padding: 0px;
+                display: inline;
+                
+            }
+            li{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                padding: 0px 13px 0px 13px;
+            }
+            ul{
+                padding: 0px 100px 0px 20px;
+            }
+            header>img{
+                margin-top: 10px;
+                margin-left: 60px;
+                z-index: 1;
+                position: relative;
+            }
+            header{
+                font-weight: bold;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-color: rgb(13, 13, 80);
+                /* background: linear-gradient(to bottom,rgb(6, 6, 77),rgb(245, 245, 7)); */
+                
+            }
+            nav{
+                display: inline;
+                position: absolute;
+                top: 40px;
+                padding: 0px 20px 0px 80px;
+                z-index: 1;
+                margin-left: 100px
+            }
+            /* h1{
+                margin-left: 500px;
+            }
+            p{
+                margin-left:  400px; ;
+            } */
+            .banner{
+                margin-left: 250px;
+                background-color: yellow;
+                width: 800px;
+                height: 300px;
+                
+            } 
+            .imgbanner{
+                margin: 10x;
+                padding: 0px 0px 0px 100px;
+                float: top;
+            } 
+            .textobanner{ 
+                 margin-left: 250px;; 
+              
+             } *
+             .textobanner1{ 
+                margin-left: 150px;; 
+            }
+            .textoresumo{
+                color: white;
+                margin-left: 250px;
+                margin-right: 200px;
+                
+
+            }
+            .textoresumo1{
+                color: white;
+            }
+        
+
+        </style>
+        <section class="banner">
+            <H1 class="textobanner">Estudando Python</H1>
+            <p class="textobanner1">Aqui vamos aprender um pouco sobre as listas,as tuplas e os Dicionários<br> na linguagem de programação Python,
+                de forma prática e resumida.
+            </p>
+            <img class="imgbanner"src="./img/python-decubra-quais-sao-as-suas-funcoes-na-programacao.jpg" width="600px" height="200px" alt="Aqui temos o símbolo que representa o python">
+        </section>
+        <section class="textoresumo">
+            <h1 class="textoresumo">Basicamente</h1>
+            <p class="textoresumo1">Relembrando Conceitos:</p>
+            <p>Valor é um espçao reservado na memória para armazenar uma informação</p>
+            <p>As variáveis podem ser de valores numéricos ou alfabéticos,não sendo preciso declarar de que tipo é a variável.</p>
+            
+            <h1>tipos de varáveis</h1>
+        
+            <p>int:inteiro</p>
+            <p>str:string,é uma sequência de caracteres simples,são utilizadas com aspas simples ‘exemplo’,ou aspas duplas “exemplo”.</p>
+            <p>list:- Listas agrupam um conjunto de elementos variados,podendo conter: inteiros, floats, strings, outras listas e outros tipos.</p>
+            <p>Tuple:- A diferença para Lista é que, após sua definição Tuplas não podem ser modificadas.</p>
+            <p>Dic: Dicionarios são utilizados para agrupar elementos através da estrutura de chave e valor, onde a chave é o primeiro elemento seguido por dois pontos e pelo valor.</li>
+
+            <h1 class="textoresumo">Palavras reservadas</h1>
+            <p>Em python algumas palavras são parte da linguagem e não podem ser utilizadas como nomes de variáveiscomo:</p>
+            <p>And</p>
+            <p>As</p>
+            <p>Assert</p>
+            <p>Break</p>
+            <p>Class</p>
+            <p>else</p>
+            <p>While</p>
+            <p>Entre outras....</p>
+    
+            <h1 class="textoresumo">Operadores Aritméticos</h1>
+            <p>+:soma</p>
+            <p>-:subtrai</p>
+            <p>*:multiplica</p>
+            <p>/:divide</p>
+            <p>//:divide arredondando o resultado para baixo</p>
+            <p>%:resto da divisão</p>
+            <p>**:Exponenciação</p>
+            
+            <h1 class="textoresumo">Operadores Lógicos</h1>
+            <p>And: e</p>
+            <p>Or: ou</p>
+            <p>Not: não</p>
+            
+            <h1 class="textoresumo">Operadores Relacionais</h1>
+            <p>==: igual</p>
+            <p>!=: Diferente</p>
+            <p>>: maior</p>
+            <p><: menor</p>
+            <p>>=: maior ou igual</p>
+            <p><=: menor ou igual</p>
+             
+            <h1 class="textoresumo">Operadores de atribuição</h1>
+            
+            <p>=: operador de atribuição. Dada uma variável x, ao fazermos x = valor atribuímos o valor à variável x.</p>
+            <p>+=: é equivalente a fazer x = x + valor.</p>
+            <p> -=,=, /=, //=, %=,*=: funcionam da mesma forma que o +=</p>
+            
+            <h1 class="textoresumo">Condicionais (se...)</h1>
+            <p>Os Condicionais nos permitem selecionar blocos do código que serão ou não executados dependendo de certas condições.</p>
+            <p>Exemplo:</p>
+            <img src="./img/condicao.png" alt="logo python">
+            <h1 class="textoresumo">Laços de Repetição</h1>
+            <p>Repetem comandos até que uma condição seja satisfeta</p>
+            <p>For:usado para objetos iteráveis como listas e intervalos</p>
+            <p>Exemplo:</p>
+            <img src="./img/for.png"  alt="logo python">
+            <p>While:executa enquanto uma condição for verdadeira</p>
+            <p>Exemplo:</p>
+            <img src="./img/while.png"  alt="logo python">
+
+
+
+            
+        </section>
+
+
+    </body>
+</html>
